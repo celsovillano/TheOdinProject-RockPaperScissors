@@ -60,8 +60,6 @@ function game(){
     for (let i=0; i<5; i++){
         let playerSelection = prompt('rock paper scissors?');
 
-        console.log(playerSelection, getComputerChoice());
-
         gameOutcome = playRound(playerSelection, getComputerChoice());
 
         if (gameOutcome === 'tie'){
